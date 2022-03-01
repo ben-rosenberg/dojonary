@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja | Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TOP NAV BAR -->
+    <div class="top_nav_bar main_width">
+        <h1 class="dojonary_label">Dojonary</h1>
+        <form action="" class="search_bar">
+            <input type="text" name="search" id="search" class="search_text_box" placeholder="Search">
+        </form>
+        <button onclick="loginButton(this)" class="login_button small_button_text">Login</button>
+    </div>
+
+    <!-- PAGE BODY -->
+    <div class="page_body main_width">
+
+        <!-- DEFINITIONS COLUMN -->
+        <div class="definitions_column">
+            <div class="definition_box content_box">
+                <div class="word_info_column">
+                    <h1 class="word">Ninja</h1>
+                    <h2 class="word_type">noun</h2>
+                    <h3 class="plural">Plural: <em>ninjas</em></h3>
+                    <button onclick="like()" class="likes_button">13 likes</button>
+                </div>
+                <div class="definition_entry_column">
+                    <p class="definition">A practitioner skilled in the<br><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="definition_box content_box">
+                <div class="word_info_column">
+                    <h1 class="word">Ninja</h1>
+                    <h2 class="word_type">noun</h2>
+                    <h3 class="plural">Plural: <em>ninjas</em></h3>
+                    <button onclick="like()" class="likes_button">37 likes</button>
+                </div>
+                <div class="definition_entry_column">
+                    <p class="definition">A <a href="#">programmer</a> who breaks<br>down problems with <a href="#">zen</a>-like<br>focus</p> 
+                </div>
+            </div>
+        </div>
+
+        <!-- SIDEBAR/ADD DEFINITION -->
+        <div class="side_bar">
+            <div class="add_definition_box content_box">
+                <p class="add_definition_text">Dojonary is defined by <span class="emph_text">YOU</span></p>
+                <button onclick="addDefinition(this)" class="add_definition_button">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
